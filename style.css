@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+/* Add this CSS to fix the logo in the navigation bar */
+.navbar-brand.logo img {
+    max-height: 60px; /* Adjust the height as needed */
+    max-width: 100%; /* Ensure the logo does not exceed the container width */
+    display: block; /* Remove any default inline styling */
+}
+
+/* Optional: Add padding to the navbar-brand to create some space around the logo */
+.navbar-brand.logo {
+    padding-right: 15px; /* Adjust as needed */
+}
+
+/* Optional: Center the logo vertically in the navbar */
+.navbar-brand.logo {
+    display: flex;
+    align-items: center;
+}
+
+.hero_img {
+    background: linear-gradient( rgba(255, 255, 255, 10) 0%, rgba(255, 255, 255, 0.5) 100%), url(/Images/746.jpg) no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+/* .hero_img2{
+    background: url(/Images/l8vg_zueb_210118.jpg)no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 50%; 
+} */
+
+.hero_content{
+    margin-top: 100px;
+}
+
+
+.Digital_img{
+    background: url(/Images/business-landing-page-flat-design_23-2147774149.jpg)no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+
+.service_heading{
+    margin-top: 150px;
+}
+
+.card-img-top {
+    width: 60px; 
+    height: 60px; 
+}
+
+
+
+
+.icons{
+    font-size: xx-large;
+}
+
+.navigating_img{
+    background: url(/Images/vlogger-social-media-illustration_52683-42407.jpg) no-repeat;
+    background-size: contain;
+    height: 600px;
+    width: 100%;
+   
+}
+
+
+.driving_img{
+    background: url(/Images/people-office-workplace_24908-56329.jpg)no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+
+.conversions_img{
+    background-size: contain;
+
+}
+.card1{
+    width: 100px; 
+    height: 100px; 
+ 
+}
+
+
+
+
+
+.Ouestions_heading{
+margin-top: 90px;
+}
+
+
+
+.Ouestions_box{
+  
+    width: 60%;
+    margin: 0px auto;
+}
+
+.Connect_heading{
+    margin-top: 120px;
+}
+
+.connect_box{
+
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+   
+}
+
+
+.foot_box{
+    padding: 30px;
+    background-color: rgb(197, 225, 241);
+    border-radius: 20px;
+}
